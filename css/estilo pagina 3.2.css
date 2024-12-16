@@ -1,0 +1,137 @@
+@font-face {
+    font-family: fuente1;
+    src: url('/ESTILOS/ESTILO_HOME/font/Caveat-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fuente1;
+    background: linear-gradient(90deg, rgb(179, 199, 186) 21%, rgb(109, 158, 80) 59%, rgb(65, 109, 7) 68%);
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #1c4a24;
+    font-family: fuente1;
+}
+
+.container {
+    position: relative;
+}
+
+.contenido {
+    width: 220px;
+    height: 180px;
+    background-color: #0f1a0f;
+    color: #ffffff;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: inline-start;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.contenido img {
+    width: 200px;
+    height: 160px;
+}
+
+.caja1{
+    background-color: #23c989;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+.caja1:hover{
+    background-color: #3F51B5;
+}
+.caja2{
+    background-color: #9B59B6;
+    -webkit-transition: font-size 3s ease;
+    transition: font-size 1s ease;
+}
+.caja2:hover{
+    font-size: 28px;
+}
+.caja3{
+    background-color: #2980B9;
+    -webkit-transition: color 1s linear;
+    transition: color 1s linear;
+}
+.caja3:hover{
+    color: yellow;
+}
+.caja4{
+    background-color: #3498DB;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja4:hover{
+    line-height: 300px;
+}
+.caja5{
+    border-radius: 0px;
+    background-color: #17A589;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.caja5:hover{
+    border-radius: 20px;
+}
+.caja6{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #F1C40F;
+    }
+.caja6:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+.caja7{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #E67E22;
+}
+.caja7:hover{
+    opacity: 0.3;
+}
+.caja8{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #95A5A6;
+}
+.caja8:hover{
+    border-style: solid;
+    border-color: #95A5A6;
+    border-color: #000;
+}
+.caja9{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #2C3E50;
+}
+.caja9:hover{
+    margin: 80px;
+}
+.caja10{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: black;
+}
+.caja10:hover{
+    padding: 30px;
+}
